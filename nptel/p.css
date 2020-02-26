@@ -40,4 +40,33 @@
     border-top-right-radius: 50px;
     margin-bottom: -1px;
 }
+.hc
+{
+	margin-left: 25%;
+}
+#cd
+{
+	margin-left: 10%;
+	margin-right: 10%;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 }
