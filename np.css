@@ -1,0 +1,134 @@
+html
+{
+	background-color: rgb(193,156,130);
+}
+.ad
+{
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	width: 400px;
+}
+.b
+{
+	display: inline-block;
+	width: 240px;
+}
+h1
+{
+	display: inline-block;
+	position: absolute;
+	margin: 6%;
+	margin-left: 13%;
+	font-family: 'Chewy', cursive;
+	background-color: #290800;
+	padding: 0.25em 0.5em;
+	color: #FFFDD0;
+}
+#fo
+{
+font-family: 'Bebas Neue', cursive;
+font-weight: bolder;
+}
+#cof
+{
+	position: relative;
+	bottom: 3px;
+	left: 6%;
+	font-family: 'Bangers', cursive;
+	font-size: 1.5em;
+	font-style: bold;
+}
+.s button
+{
+margin: 4%;
+margin-top: 0.5%;
+width: 100px;
+margin-bottom: 1rem;
+background-color: #6f4e37;
+color: #FFDEAD;
+display: block;
+border-radius: 20px;
+
+}
+.s a
+{
+	padding: 0.2em 0.3em;
+	margin-left: 2.6rem;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3rem;
+	color: ghostwhite;
+}
+.s a:hover
+{
+	color: black;
+	margin: 1rem;
+	margin-left: 2.6rem;
+	background-color: green;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3rem;
+	border-radius: 10px;
+	width: 155px;
+}
+.s li
+{
+	list-style: none;
+	margin: 1.1em;
+}
+
+@media screen and (max-width: 1024px) 
+{
+	.b
+{
+	display: inline-block;
+	width: 140px;
+}
+	h1
+	{
+	display: inline-block;
+	position: absolute;
+	margin: 38px;
+	margin-left: 4px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	padding: 1px;
+	}
+	.s a
+{
+	margin: 1rem;
+	margin-left: 0.3em;
+	padding: 0.1em 0.3em;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3rem;
+	display: block;
+	color: ghostwhite;
+}
+.s a:hover
+{
+	color: black;
+	margin: 1rem;
+	margin-left: 1rem;
+	background-color: green;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3rem;
+	border-radius: 10px;
+	width: 180px;
+}
+.ad
+{
+	position: relative;
+	float: right;
+	display: inline;
+	right: 0;
+	width: 200px;
+}
+#cof
+{
+	font-size: 1em;
+	position: relative;
+	margin-top: 30%;
+	left: 0;
+}
+}
